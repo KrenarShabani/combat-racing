@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b163166fa8d0c324d874b7f5d3a86778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 20
   gCam: {fileID: 2055602695}
   bomber: {fileID: 0}
 --- !u!143 &1332716332
@@ -558,6 +558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lookAt: {fileID: 1332716330}
   camTransform: {fileID: 2055602696}
+  shiftz: 15
   mouse: 0
   sensivityX: 4
   sensivityY: -1.5

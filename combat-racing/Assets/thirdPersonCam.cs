@@ -11,14 +11,14 @@ public class thirdPersonCam : MonoBehaviour {
     private const float Y_ANGLE_MIN = -40f;
     private const float Y_ANGLE_MAX = 40f;
 
-    private const float MAX_ZOOM = 2.5f;
-    private const float MIN_ZOOM = 30f;
+    private const float MAX_ZOOM = 30f;
+    private const float MIN_ZOOM = 70f;
 
     //private float shiftx = 2f;
-    private float shiftz = 10f;
+    public float shiftz = 15f;
     public bool mouse = false;
     //private Camera cam;
-    float dis = 8f;
+    float dis = 16f;
     Vector3 dest;
    // private float distance = 15f;
     private float currentX = 0;
